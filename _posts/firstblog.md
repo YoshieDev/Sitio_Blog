@@ -1,5 +1,5 @@
 ---
-date: '2023-02-01T19:02:54.000Z'
+date: '2023-01-31T19:02:54.000Z'
 title: ¿Cómo empezar a ser un QA Tester?
 tagline: QA Tester
 preview: >-

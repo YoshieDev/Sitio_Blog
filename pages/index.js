@@ -53,6 +53,7 @@ export default function Home() {
       {data.showCursor && <Cursor />}
       <Head>
         <title>{data.name}</title>
+        <meta name="publisuites-verify-code" content="aHR0cHM6Ly95b3NoaWRldmJsb2cubmV0bGlmeS5hcHAvYmxvZw==" />
       </Head>
 
       <div className="gradient-circle"></div>
