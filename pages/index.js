@@ -54,6 +54,17 @@ export default function Home() {
       <Head>
         <title>{data.name}</title>
         <meta name="publisuites-verify-code" content="aHR0cHM6Ly95b3NoaWRldmJsb2cubmV0bGlmeS5hcHAvYmxvZw==" />
+
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P0ZTLMQ5FR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P0ZTLMQ5FR');
+</script>
+
       </Head>
 
       <div className="gradient-circle"></div>

@@ -3,7 +3,7 @@ date: '2023-02-09T11:50:54.000Z'
 title: "Del HTML al diseño: Descubriendo CSS"
 tagline: Desarrollo Web
 preview: >-
-  ¿Alguna vez has visitado una página web que se vea poco atractiva o desordenada? Seguramente sí, y es aquí donde entra en juego el CSS. CSS es un lenguaje de hojas de estilo que se utiliza para dar formato y estilo a las páginas web. En este blog, te brindaremos una introducción básica a CSS y cómo puedes utilizarlo para mejorar la apariencia de tus proyectos web. 
+  ¿Alguna vez has visitado una página web que se vea poco atractiva o desordenada? Seguramente sí, y es aquí donde entra en juego el CSS. CSS es un lenguaje de hojas de estilo que se utiliza para dar formato y estilo a las páginas web. 
 
 image: >-
  https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
@@ -33,6 +33,11 @@ La mayor ventaja de utilizar una hoja de estilo externa es que te permite aplica
 
 CSS utiliza selectores y declaraciones para especificar cómo deben ser formateados los elementos en tu página web. Los selectores identifican a qué elementos se aplicarán las reglas CSS. Las declaraciones contienen las propiedades y valores que describen cómo deben ser formateados esos elementos. Aquí hay un ejemplo de una regla CSS:
 
+ h1 {
+   color: blue;
+   font-size: 18px;
+   text-align: center;
+}
 
 
 En este ejemplo, el selector "h1" identifica a todos los encabezados de nivel 1 en la página web. Las declaraciones dentro de las llaves describen cómo deben ser formateados esos encabezados, incluyendo el color azul, el tamaño de fuente de 18 píxeles y el
