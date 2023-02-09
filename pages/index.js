@@ -53,17 +53,7 @@ export default function Home() {
       {data.showCursor && <Cursor />}
       <Head>
       <title>{data.name}</title>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-P0ZTLMQ5FR"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() 
-          dataLayer.push(arguments);
-        
-        gtag('js', new Date());
-
-        gtag('config', 'G-P0ZTLMQ5FR');
-      </script>
-        
+           
         <meta name="publisuites-verify-code" content="aHR0cHM6Ly95b3NoaWRldmJsb2cubmV0bGlmeS5hcHAvYmxvZw==" />
       
 
